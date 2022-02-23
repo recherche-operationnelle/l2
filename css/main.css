@@ -332,6 +332,16 @@
     color: white;
     margin: auto;
   }
+  table caption {
+    text-transform: uppercase;
+    margin: 0 auto 20px;
+    border: 2px solid var(--table-color);
+    color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 700;
+    width: fit-content;
+  }
   table .B2 {
     color: red;
   }
