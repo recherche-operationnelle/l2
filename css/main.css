@@ -10,6 +10,7 @@
     --main-padding-top: 100px;
     --main-padding-bottom: 100px;
     --section-background: #ececec;
+    --table-color: #444;
   }
   html {
     scroll-behavior: smooth;
@@ -320,9 +321,32 @@
     text-align: center;
     color: white;
     margin: 50px 0 0;
-    border-top: 1px solid #444;
+    border-top: 1px solid var(--table-color);
   }
   /* End parent */
+  /* Start schedule  */
+  table {
+    border: 1px solid var(--table-color);
+    border-spacing: 0px;
+    text-align: center;
+    color: white;
+    margin: auto;
+  }
+  table .B2 {
+    color: red;
+  }
+  table .B1  {
+    color: green;
+  }
+  th {
+    border: 1px solid var(--table-color);
+    padding: 5px;
+  }
+  td {
+    border: 1px solid var(--table-color);
+    padding: 5px;
+  }
+  /* End schedule  */
   /* Start Animation */
   @keyframes left-move {
     50% {
